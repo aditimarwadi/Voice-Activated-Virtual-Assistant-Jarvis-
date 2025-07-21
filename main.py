@@ -8,7 +8,7 @@ import pywhatkit
 import requests
 import openai
 
-openai.api_key = "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"
+openai.api_key = "{your_api_key_here}"
 
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
@@ -19,8 +19,8 @@ def speak(text):
     engine.runAndWait()
 
 def get_news():
-    api_key = "a6be4103150a413581adade4d133b4ec"
-    url = f"https://newsapi.org/v2/top-headlines?country=in&apiKey={"a6be4103150a413581adade4d133b4ec"}"
+    api_key = "your_api_key_here"
+    url = f"https://newsapi.org/v2/top-headlines?country=in&apiKey={"your_api_key_here"}"
 
     try:
         response = requests.get(url)
@@ -33,7 +33,7 @@ def get_news():
 
     
 def get_weather(city):
-    api_key = "d8325ed8aa7c76c1672bff3862bec68b"  
+    api_key = "your_api_key_here"  
     url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
 
     try:
