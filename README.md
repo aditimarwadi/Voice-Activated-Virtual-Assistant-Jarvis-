@@ -1,6 +1,8 @@
 # Voice Activated Virtual Assistant (JARVIS)
 
-A personal voice assistant project in Python capable of performing tasks like searching, playing music, sending emails, and answering queries.
+A voice-activated Python assistant capable of answering queries, playing music, fetching information, and more.
+(Note: Enter your own API key in the code before running.)
+
 
 ## Features
 - Voice command recognition
