@@ -67,6 +67,7 @@ def get_weather(city):
 #     except Exception as e:
 #         print("Error talking to GPT:", e)
 #         speak("Sorry, I couldn't get a response.")
+# Project tested and working
 
 def answer_with_gpt(query):
     print(f"Query: {query}")
