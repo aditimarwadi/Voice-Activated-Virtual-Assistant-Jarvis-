@@ -27,6 +27,15 @@ A voice-activated Python assistant capable of answering queries, playing music, 
 - Command Processing Logic
 - Modular Code Design
 
+# Skills Used
+- Python programming (variables, loops, conditionals, functions)
+- Object-oriented & modular code design
+- API integration (NewsAPI, WeatherAPI)
+- Voice recognition & text-to-speech handling
+- Command parsing & automation logic
+- Error handling & debugging
+- Problem-solving & logical thinking
+
 # How to Run
 1. Install required libraries (`speech_recognition`, `pyttsx3`, etc.)
 2. Run using: `python jarvis.py`
